@@ -1,0 +1,10 @@
+APPLICATION_ID: sockshop
+service_description:
+  name: catalogue
+  version: 0.0.1
+rest:
+  address: 0.0.0.0:7071
+cse:
+  service:
+    registry:
+      address: https://${SC_HOST}:30100
