@@ -14,7 +14,23 @@
     <orderEntry type="library" name="Maven: io.servicecomb:provider-springmvc:0.5.0" level="project" />
     <orderEntry type="library" name="Maven: io.servicecomb:provider-rest-common:0.5.0" level="project" />
     <orderEntry type="library" name="Maven: io.servicecomb:common-rest:0.5.0" level="project" />
+    <orderEntry type="library" name="Maven: io.servicecomb:java-chassis-core:0.5.0" level="project" />
+    <orderEntry type="library" name="Maven: io.servicecomb:service-registry:0.5.0" level="project" />
+    <orderEntry type="library" name="Maven: io.servicecomb:foundation-config:0.5.0" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.json-lib:json-lib:jdk15:2.4" level="project" />
+    <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.9.2" level="project" />
+    <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.2" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.ezmorph:ezmorph:1.0.6" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: io.servicecomb:foundation-metrics:0.5.0" level="project" />
+    <orderEntry type="library" name="Maven: com.netflix.servo:servo-core:0.10.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.code.findbugs:annotations:2.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.servo:servo-internal:0.10.1" level="project" />
+    <orderEntry type="library" name="Maven: com.netflix.hystrix:hystrix-core:1.5.10" level="project" />
+    <orderEntry type="library" name="Maven: io.reactivex:rxjava:1.1.6" level="project" />
+    <orderEntry type="library" name="Maven: org.hdrhistogram:HdrHistogram:2.1.9" level="project" />
+    <orderEntry type="library" name="Maven: com.netflix.archaius:archaius-core:0.7.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.code.findbugs:jsr305:3.0.1" level="project" />
     <orderEntry type="library" name="Maven: io.servicecomb:swagger-invocation-springmvc:0.5.0" level="project" />
     <orderEntry type="library" name="Maven: io.servicecomb:swagger-invocation-core:0.5.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.3.5.RELEASE" level="project" />
@@ -28,70 +44,55 @@
     <orderEntry type="library" name="Maven: io.servicecomb:swagger-generator-springmvc:0.5.0" level="project" />
     <orderEntry type="library" name="Maven: io.servicecomb:swagger-generator-core:0.5.0" level="project" />
     <orderEntry type="library" name="Maven: io.swagger:swagger-core:1.5.12" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.2.1" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.3.2" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.10" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.10" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.10" level="project" />
+    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.16" level="project" />
     <orderEntry type="library" name="Maven: io.swagger:swagger-models:1.5.12" level="project" />
     <orderEntry type="library" name="Maven: io.swagger:swagger-annotations:1.5.12" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:16.0.1" level="project" />
     <orderEntry type="library" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.servicecomb:foundation-common:0.5.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.8.10" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.8.7" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.woodstox:woodstox-core:5.0.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.6" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.10" level="project" />
+    <orderEntry type="library" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />
     <orderEntry type="library" name="Maven: io.servicecomb:common-javassist:0.5.0" level="project" />
     <orderEntry type="library" name="Maven: org.javassist:javassist:3.18.1-GA" level="project" />
     <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aspects:4.3.5.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.8.9" level="project" />
-    <orderEntry type="library" name="Maven: io.servicecomb:handler-bizkeeper:0.5.0" level="project" />
-    <orderEntry type="library" name="Maven: io.servicecomb:java-chassis-core:0.5.0" level="project" />
-    <orderEntry type="library" name="Maven: io.servicecomb:service-registry:0.5.0" level="project" />
-    <orderEntry type="library" name="Maven: io.servicecomb:foundation-config:0.5.0" level="project" />
-    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.16" level="project" />
-    <orderEntry type="library" name="Maven: net.sf.json-lib:json-lib:jdk15:2.4" level="project" />
-    <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.8.0" level="project" />
-    <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.1" level="project" />
-    <orderEntry type="library" name="Maven: net.sf.ezmorph:ezmorph:1.0.6" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-codec-http:4.1.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-codec-http2:4.1.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-handler:4.1.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.1.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-codec-socks:4.1.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-handler-proxy:4.1.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-resolver:4.1.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.5.Final" level="project" />
-    <orderEntry type="library" name="Maven: com.netflix.hystrix:hystrix-core:1.5.10" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.0" level="project" />
-    <orderEntry type="library" name="Maven: com.netflix.archaius:archaius-core:0.4.1" level="project" />
-    <orderEntry type="library" name="Maven: commons-configuration:commons-configuration:1.8" level="project" />
-    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
-    <orderEntry type="library" name="Maven: io.reactivex:rxjava:1.2.0" level="project" />
-    <orderEntry type="library" name="Maven: org.hdrhistogram:HdrHistogram:2.1.9" level="project" />
-    <orderEntry type="library" name="Maven: io.servicecomb:foundation-metrics:0.5.0" level="project" />
-    <orderEntry type="library" name="Maven: io.servicecomb:foundation-common:0.5.0" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.8.10" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.10" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.8.10" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.woodstox:woodstox-core:5.0.3" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.10" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.10" level="project" />
-    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.2" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.4" level="project" />
-    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.9" level="project" />
-    <orderEntry type="library" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" level="project" />
-    <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />
-    <orderEntry type="library" name="Maven: com.google.guava:guava:16.0.1" level="project" />
-    <orderEntry type="library" name="Maven: com.netflix.servo:servo-core:0.10.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.code.findbugs:annotations:2.0.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.servo:servo-internal:0.10.1" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.8.8" level="project" />
     <orderEntry type="library" name="Maven: io.servicecomb:transport-rest-vertx:0.5.0" level="project" />
     <orderEntry type="library" name="Maven: io.servicecomb:transport-rest-client:0.5.0" level="project" />
     <orderEntry type="library" name="Maven: io.servicecomb:foundation-vertx:0.5.0" level="project" />
     <orderEntry type="library" name="Maven: io.vertx:vertx-core:3.5.0" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-resolver-dns:4.1.15.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-codec-dns:4.1.15.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.1.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-handler:4.1.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-handler-proxy:4.1.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec-socks:4.1.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec-http:4.1.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec-http2:4.1.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-resolver:4.1.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-resolver-dns:4.1.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec-dns:4.1.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.10" level="project" />
     <orderEntry type="library" name="Maven: io.vertx:vertx-web:3.5.0" level="project" />
     <orderEntry type="library" name="Maven: io.vertx:vertx-auth-common:3.5.0" level="project" />
     <orderEntry type="library" name="Maven: io.vertx:vertx-bridge-common:3.5.0" level="project" />
     <orderEntry type="library" name="Maven: io.servicecomb:foundation-ssl:0.5.0" level="project" />
+    <orderEntry type="library" name="Maven: commons-configuration:commons-configuration:1.10" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.7" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.7" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
   </component>
 </module>

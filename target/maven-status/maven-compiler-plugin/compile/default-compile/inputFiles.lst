@@ -1,4 +1,6 @@
-C:\Users\w00402903\IdeaProjects\catalogue\src\main\java\io\servicecomb\api\CatalogueController.java
-C:\Users\w00402903\IdeaProjects\catalogue\src\main\java\io\servicecomb\model\Catalogue.java
-C:\Users\w00402903\IdeaProjects\catalogue\src\main\java\io\servicecomb\model\Image.java
-C:\Users\w00402903\IdeaProjects\catalogue\src\main\java\io\servicecomb\model\Tag.java
+C:\Users\w00402903\IdeaProjects\catalogue\src\main\java\io\servicecomb\sockshop\model\Catalogue.java
+C:\Users\w00402903\IdeaProjects\catalogue\src\main\java\io\servicecomb\sockshop\model\Tag.java
+C:\Users\w00402903\IdeaProjects\catalogue\src\main\java\io\servicecomb\sockshop\api\CatalogueController.java
+C:\Users\w00402903\IdeaProjects\catalogue\src\main\java\io\servicecomb\sockshop\model\Image.java
+C:\Users\w00402903\IdeaProjects\catalogue\src\main\java\io\servicecomb\sockshop\CatalogueApplication.java
+C:\Users\w00402903\IdeaProjects\catalogue\src\main\java\io\servicecomb\sockshop\repository\CatalogueRepository.java
