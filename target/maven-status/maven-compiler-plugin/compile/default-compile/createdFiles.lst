@@ -1,6 +1,0 @@
-io\servicecomb\sockshop\model\Tag.class
-io\servicecomb\sockshop\repository\CatalogueRepository.class
-io\servicecomb\sockshop\CatalogueApplication.class
-io\servicecomb\sockshop\model\Image.class
-io\servicecomb\sockshop\model\Catalogue.class
-io\servicecomb\sockshop\api\CatalogueController.class
