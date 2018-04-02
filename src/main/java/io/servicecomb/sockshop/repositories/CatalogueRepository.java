@@ -1,4 +1,4 @@
-package io.servicecomb.sockshop.repository;
+package io.servicecomb.sockshop.repositories;
 
 import io.servicecomb.sockshop.model.Catalogue;
 import io.servicecomb.sockshop.model.Tag;
