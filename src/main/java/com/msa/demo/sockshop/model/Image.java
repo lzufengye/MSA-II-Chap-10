@@ -1,8 +1,7 @@
-package io.servicecomb.sockshop.model;
+package com.msa.demo.sockshop.model;
 
 public class Image {
     private String id;
-    private int size;
     private String url;
     private String catalogueId;
 
@@ -12,14 +11,6 @@ public class Image {
 
     public void setId(String id) {
         this.id = id;
-    }
-
-    public int getSize() {
-        return size;
-    }
-
-    public void setSize(int size) {
-        this.size = size;
     }
 
     public String getUrl() {

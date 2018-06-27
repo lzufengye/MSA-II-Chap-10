@@ -1,4 +1,4 @@
-package io.servicecomb.sockshop.model;
+package com.msa.demo.sockshop.model;
 
 import java.util.List;
 
