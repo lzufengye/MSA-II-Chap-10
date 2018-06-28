@@ -1,0 +1,7 @@
+FROM mysql
+
+# ENV MYSQL_ROOT_PASSWORD DEFAULT_PASS
+# ENV MYSQL_ALLOW_EMPTY_PASSWORD=true
+# ENV MYSQL_DATABASE=CATALOGUE_DB
+
+COPY ./dump.sql /docker-entrypoint-initdb.d/

@@ -1,13 +1,21 @@
 version: '3'
 services:
-  orders:
+  catalogue-service:
     build: .
     ports:
      - "7071:7071"
     environment:
-     - SC_HOST=127.0.0.1
-     - MONGODB_ORDERS_SERVICE_HOST=mongo
-  mongo:
-    image: "mongo:latest"
+     - MYSQL_HOST=catalogue-db
+     - SC_HOST=sc-host
+  catalogue-db:
+    build: ./data/
     ports:
-     - "27017:27017"
+     - "3306:3306"
+    environment:
+     - MYSQL_ROOT_PASSWORD=developer
+     - MYSQL_ALLOW_EMPTY_PASSWORD=true
+     - MYSQL_DATABASE=CATALOGUE_DB
+  sc-host:
+    image: servicecomb/service-center:latest
+    ports:
+     - "30100:30100"
