@@ -24,7 +24,7 @@ public class CatalogueController {
 
     @ResponseStatus(HttpStatus.OK)
     @RequestMapping(value = "/catalogues/{id}", method = RequestMethod.GET)
-    public @ResponseBody Catalogue getCatalogue(@PathVariable(value="id") int id) {
+    public @ResponseBody Catalogue getCatalogue(@PathVariable(value="id") String id) {
         Catalogue catalogue = catalogueRepository.find(id);
         if(catalogue == null) {
             return null;

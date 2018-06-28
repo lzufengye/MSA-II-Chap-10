@@ -25,7 +25,7 @@ public class CatalogueRepository {
         return catalogues;
     }
 
-    public Catalogue find(int id) {
+    public Catalogue find(String id) {
         return catalogueMapper.find(id);
     }
 }

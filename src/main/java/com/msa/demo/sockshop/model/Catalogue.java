@@ -11,6 +11,14 @@ public class Catalogue {
     private int stock;
     private List<Tag> tags;
 
+    public Catalogue(String id, String name, String description, float price, int stock) {
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.price = price;
+        this.stock = stock;
+    }
+
     public Catalogue(String name, String description, List<Image> images, float price, int stock, List<Tag> tags) {
         this.name = name;
         this.description = description;

@@ -1,6 +1,7 @@
 package com.msa.demo.sockshop.repositories.mapper;
 
 import com.msa.demo.sockshop.model.Catalogue;
+import com.msa.demo.sockshop.model.Image;
 import org.apache.ibatis.annotations.*;
 import org.apache.ibatis.mapping.FetchType;
 
@@ -17,8 +18,7 @@ public interface CatalogueMapper {
             @Result(column="STOCK",property="stock"),
             @Result(column="ID",property="images",
                     many=@Many(
-                            select="com.msa.demo.sockshop.repositories.mapper.ImageMapper",
-                            fetchType=FetchType.LAZY))
+                            select="com.msa.demo.sockshop.repositories.mapper.ImageMapper.findByCatalogueId"))
     })
     List<Catalogue> all();
 
@@ -31,8 +31,7 @@ public interface CatalogueMapper {
             @Result(column="STOCK",property="stock"),
             @Result(column="ID",property="images",
                     many=@Many(
-                            select="com.msa.demo.sockshop.repositories.mapper.ImageMapper",
-                            fetchType=FetchType.LAZY))
+                            select="com.msa.demo.sockshop.repositories.mapper.ImageMapper.findByCatalogueId"))
     })
-    Catalogue find(int id);
+    Catalogue find(String id);
 }

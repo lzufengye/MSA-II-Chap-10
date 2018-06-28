@@ -15,5 +15,5 @@ public interface ImageMapper {
             @Result(id=true,column="ID",property="id"),
             @Result(column="URL",property="url")
     })
-    List<Image> findByCatalogueId(int catalogueId);
+    List<Image> findByCatalogueId(String catalogueId);
 }
