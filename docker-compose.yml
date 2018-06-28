@@ -1,0 +1,13 @@
+version: '3'
+services:
+  orders:
+    build: .
+    ports:
+     - "7071:7071"
+    environment:
+     - SC_HOST=127.0.0.1
+     - MONGODB_ORDERS_SERVICE_HOST=mongo
+  mongo:
+    image: "mongo:latest"
+    ports:
+     - "27017:27017"
