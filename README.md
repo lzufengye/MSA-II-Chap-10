@@ -2,7 +2,7 @@
 
 商品服务(Catalogue Service)用于商品列表、商品详情的展示等功能。采用Java Chassis进行开发，数据库采用MySQL。由于基于Java Chassis开发，商品服务的运行依赖于服务中心。
 
-## 开发环境准备
+## 1. 开发环境准备
 
 在开始使用Java Chassis 开发Catalogue服务前，需要准备开发环境，具体内容包括：
 
@@ -11,7 +11,7 @@
 * 安装 Docker（可选，方便本地调试）
 * 安装 MySQL （也可通过docker启动）
 
-## 构建和打包
+## 2. 构建和打包
 
 * 生成jar包
 
@@ -29,7 +29,7 @@
 	docker build -t catalogue .
 ```
 
-# 构建数据库镜像（可选）
+* 构建数据库镜像（可选）
 
 数据库的Dockerfile位于data目录下，运行以下命令即可生成数据库docker镜像。
 
@@ -37,7 +37,7 @@
 	docker build -t catalogue-db ./data/
 ```
 
-## 运行商品服务
+## 3. 运行商品服务
 
 ### 以docker-compose方式运行（推荐）
 
@@ -93,7 +93,7 @@ rest:
     address: 0.0.0.0:7071
 ```
 
-## FAQ
+## 4. FAQ
 
 * 是否注册到注册中心：`curl -H "X-Domain-Name:default" http://127.0.0.1:30100/registry/v3/microservices  | jq -r`
 
